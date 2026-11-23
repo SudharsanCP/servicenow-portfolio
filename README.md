@@ -1,40 +1,43 @@
-# servicenow-portfolio
-ServiceNow projects, ITSM automation and hands-on learning portfolio.
 # ServiceNow Portfolio
 
-Welcome to my ServiceNow portfolio!
+Welcome to my ServiceNow portfolio.
 
 I am building practical projects to develop my skills in ServiceNow Administration, ITSM and workflow automation.
 
 ## Projects
 
-### 1. NextGen Employee Lifecycle – Employee Onboarding Automation
+### 1. NextGen Employee Lifecycle — Employee Onboarding Automation
 
-**Platform:** ServiceNow
+**Platform:** ServiceNow  
+**Technologies:** Service Catalog, Flow Designer, Catalog UI Policies, Catalog Client Scripts
 
-**Technologies:** Service Catalog, Flow Designer, Catalog UI Policies, Catalog Client Scripts.
-
-**Key Features:**
-- Employee onboarding request form.
-- Conditional field visibility.
-- Joining-date validation.
-- Manager approval and rejection workflow.
-- Automatic creation of IT, HR and Facilities tasks after approval.
+**Key Features**
+- Employee onboarding request form with 11 catalog variables.
+- Conditional field visibility using Catalog UI Policies.
+- Joining-date validation using an onSubmit Catalog Client Script.
+- Manager approval and rejection workflow using Flow Designer.
+- Automatic creation of IT, HR and Facilities catalog tasks after approval.
 - Tested approval and rejection scenarios.
 
-**Project Status:** Implemented and tested.
+**Project status:** Core onboarding workflow implemented and tested in a ServiceNow Personal Developer Instance using dummy data.
 
-*Detailed documentation, architecture diagram and implementation screenshots will be added here.*
+**Project resources**
+- [Detailed project documentation](projects/nextgen-employee-lifecycle/PROJECT_DOCUMENTATION.md)
+- [Architecture and workflow diagram](projects/nextgen-employee-lifecycle/ARCHITECTURE.md)
 
-## Skills
+## Skills demonstrated
 
-- ServiceNow Administration
-- Service Catalog
-- Flow Designer
+- ServiceNow Administration fundamentals
+- Service Catalog and Catalog Variables
 - Catalog UI Policies
 - Catalog Client Scripts
-- ITSM Fundamentals
+- Flow Designer and approval flows
+- ITSM request fulfillment concepts
 
 ## Contact
 
 For professional opportunities, please connect with me through my GitHub profile.
+
+---
+
+*This is a learning and portfolio project. It is not a production deployment. Employee offboarding, external integrations, email notifications, dashboards and additional access controls are future enhancements, not implemented features.*
